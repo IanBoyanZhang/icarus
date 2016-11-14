@@ -1,0 +1,15 @@
+digraph FG {
+  "ExprVertex" -> "PropertyVertex";
+  "PropertyVertex" -> "CalleeVertex";
+  "FuncVertex" -> "ExprVertex";
+  "PropertyVertex" -> "ArgumentVertex";
+  "PropertyVertex" -> "CalleeVertex";
+  "ExprVertex" -> "ArgumentVertex";
+  "ResVertex" -> "ExprVertex";
+  "ResVertex" -> "ExprVertex";
+  "ExprVertex" -> "PropertyVertex";
+  "PropertyVertex" -> "PropertyVertex";
+  "ExprVertex" -> "PropertyVertex";
+  "ExprVertex" -> "PropertyVertex";
+  "ExprVertex" -> "PropertyVertex";
+}
